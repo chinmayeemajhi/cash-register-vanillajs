@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+
+:root {
+    /* --primary-color: #7C3AED; */
+    --primary-color: #110e06;
+    --dark-grey: #6B7280;
+    --off-white: #E5E7EB;
+    --green: #289957;
+    
+}
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0px;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: var(--green);;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem;
+    
+}
+
+h2{
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+input{
+    box-sizing: border-box;
+    display: block;
+    width: 20%;
+    min-height: 5vh;
+    margin-top: 0rem;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 0.5rem;
+    border: 2px solid var(--green);
+    text-align: center;
+    font-family: 'Libre Franklin';
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+table{
+    max-width: 600px;
+    margin: auto;
+    font-family: 'Libre Franklin';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+button{
+
+    background-color: var(--primary-color);
+    color: var(--green);
+    border-radius: 0.5rem;
+    /* border: 2px solid var(--green); */
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    font-size: large;
+    
+    
+}
+
+.container-center {
+
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem 0.5rem;
+    text-align: center;
+    color:var(--green);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    max-width: 1000px;
+    margin: auto;
+    font-weight: 700;
+}
